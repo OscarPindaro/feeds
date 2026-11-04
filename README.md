@@ -1,15 +1,18 @@
 # RSS feeds
 
-A public, hand-maintained list of the blogs I read. `feeds.opml` is the
-canonical file; the table below mirrors it for humans.
+A public list of RSS feeds, in two files:
 
-**Subscribe to everything at once** — point a reader that accepts an OPML URL at:
+| File | Size | For |
+| --- | --- | --- |
+| [`feeds.opml`](feeds.opml) | 8 feeds | Me. Hand-picked, one folder per interest. |
+| [`feeds-llm.opml`](feeds-llm.opml) | 164 feeds, 11 categories | Agents and LLMs that ingest broadly. |
 
 ```
 https://raw.githubusercontent.com/OscarPindaro/feeds/main/feeds.opml
+https://raw.githubusercontent.com/OscarPindaro/feeds/main/feeds-llm.opml
 ```
 
-Readers that only take a file can download that URL and import it.
+Readers that only take a file can download those URLs and import them.
 
 **Inoreader** can subscribe to that URL directly (Preferences → Import, Export,
 Backup → OPML subscriptions). It re-checks the file every 24 hours on free
@@ -29,6 +32,23 @@ each change.
 | [Ludicity](https://ludic.mataroa.blog/) | <https://ludic.mataroa.blog/rss/> |
 | [Sublucid Geometry](https://zalo.github.io/) | <https://zalo.github.io/feed.xml> |
 | [Doors to the Unknown](https://doorstotheunknown.substack.com/) | <https://doorstotheunknown.substack.com/feed> |
+
+## feeds-llm.opml
+
+The wide file, for a model that wants a lot of sources rather than a good
+reading list. It contains the curated feeds plus:
+
+- **AI & ML** (19) — lab blogs and researchers: OpenAI, DeepMind, Google
+  Research, Hugging Face, BAIR, Distill, Latent Space, Import AI, Ahead of AI,
+  Simon Willison, arXiv cs.LG, and others.
+- **Tech, Programming, Web Development, Cyber security, Science, Business &
+  Economy, Startups, UI/UX** — 157 feeds taken from
+  [awesome-rss-feeds](https://github.com/plenaryapp/awesome-rss-feeds) (CC0).
+
+Every URL was fetched and kept only if it returned HTTP 200 with at least one
+`<item>`/`<entry>`; 28 candidates from the upstream list were dead and are
+dropped. Nothing regenerates it automatically — when it drifts, re-run the
+check.
 
 ## Adding a feed
 

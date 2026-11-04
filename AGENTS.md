@@ -1,7 +1,12 @@
 # Agent notes
 
-A public list of the RSS feeds Oscar reads. `feeds.opml` is the source of
-truth; `README.md` mirrors it for humans. Both must be updated together.
+A public list of RSS feeds. Two files, two audiences:
+
+- `feeds.opml` — the curated list Oscar actually reads. `README.md` mirrors it
+  in a table. Both must be updated together.
+- `feeds-llm.opml` — a wide list for agents and LLMs. Curated feeds plus a
+  large set of tech/programming/science feeds. No README mirror; the file is
+  the artifact.
 
 ## Environment
 
@@ -38,10 +43,28 @@ truth; `README.md` mirrors it for humans. Both must be updated together.
    A `200 text/html` response is usually a soft 404, not a feed.
 3. Add an `<outline type="rss" …>` entry to `feeds.opml` and a row to the table
    in `README.md`. Keep the existing category groupings.
-4. Commit and push.
+4. Add the same entry to `feeds-llm.opml` if it fits that file's breadth.
+5. Commit and push.
+
+## Keeping feeds-llm.opml honest
+
+```bash
+python3 refresh.py --dry-run   # report only
+python3 refresh.py             # drop feeds that no longer serve a feed
+```
+
+- A feed counts as alive only if it returns HTTP 200 *and* the body contains
+  `<item>` or `<entry>`. `200 text/html` is usually a soft 404.
+- `refresh.py` retries each URL three times and refuses to rewrite when more
+  than 20% fail, because a single failed fetch is usually rate limiting rather
+  than a dead feed. Do not lower those guards to "clean up faster" — a 24-way
+  concurrent run falsely killed `github.blog` and `martinfowler.com`.
+- `refresh.py` rewrites the file through `ElementTree`, so expect a formatting
+  diff. That is fine; the XML is equivalent.
 
 ## Rules
 
 - The repo is public. Never commit tokens, cookies or private feed URLs.
-- Do not add aggregator feeds that are not one blog: keep the list curated.
-- No build step, no scripts. One OPML file and one README is the whole design.
+- `feeds.opml` stays curated: one blog per entry, no aggregators.
+- `feeds-llm.opml` favours breadth; a firehose belongs there, not in the
+  curated file.
