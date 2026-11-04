@@ -1,0 +1,39 @@
+# RSS feeds
+
+A public, hand-maintained list of the blogs I read. `feeds.opml` is the
+canonical file; the table below mirrors it for humans.
+
+**Subscribe to everything at once** — point a reader that accepts an OPML URL at:
+
+```
+https://raw.githubusercontent.com/OscarPindaro/feeds/main/feeds.opml
+```
+
+Readers that only take a file can download that URL and import it.
+
+## Feeds
+
+| Feed | RSS |
+| --- | --- |
+| [&lt;antirez&gt;](https://antirez.com/) | <https://antirez.com/rss> |
+| [Ed Zitron's Where's Your Ed At](https://www.wheresyoured.at/) | <https://www.wheresyoured.at/rss/> |
+| [Sean Goedecke](https://www.seangoedecke.com/) | <https://www.seangoedecke.com/rss.xml> |
+| [Ludicity](https://ludic.mataroa.blog/) | <https://ludic.mataroa.blog/rss/> |
+| [Sublucid Geometry](https://zalo.github.io/) | <https://zalo.github.io/feed.xml> |
+| [Doors to the Unknown](https://doorstotheunknown.substack.com/) | <https://doorstotheunknown.substack.com/feed> |
+
+## Adding a feed
+
+1. Find the feed URL (usually `<site>/rss`, `/feed`, `/feed.xml` or `/atom.xml`;
+   check the page source for `application/rss+xml`).
+2. Confirm it returns XML: `curl -sI <url> | grep -i content-type`.
+3. Add an `<outline type="rss" …>` line to `feeds.opml` and a row to the table.
+4. Commit and push. Raw GitHub URLs refresh within a few minutes.
+
+## Notes
+
+- **Tom Aarsen** (Sentence Transformers maintainer) has no personal feed:
+  [tomaarsen.com](https://www.tomaarsen.com/) is a static portfolio with no RSS,
+  and he publishes through the Hugging Face blog, which only offers one global
+  feed (<https://huggingface.co/blog/feed.xml>) with no per-author filter. Left
+  out on purpose rather than subscribing to every HF post.

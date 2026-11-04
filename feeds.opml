@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Oscar Pindaro — RSS feeds</title>
+    <dateCreated>Wed, 04 Nov 2026 00:00:00 GMT</dateCreated>
+    <ownerName>Oscar Pindaro</ownerName>
+  </head>
+  <body>
+    <outline text="Tech &amp; AI" title="Tech &amp; AI">
+      <outline type="rss" text="&lt;antirez&gt;" title="&lt;antirez&gt;" xmlUrl="https://antirez.com/rss" htmlUrl="https://antirez.com/" category="Tech &amp; AI"/>
+      <outline type="rss" text="Ed Zitron's Where's Your Ed At" title="Ed Zitron's Where's Your Ed At" xmlUrl="https://www.wheresyoured.at/rss/" htmlUrl="https://www.wheresyoured.at/" category="Tech &amp; AI"/>
+      <outline type="rss" text="Sean Goedecke" title="Sean Goedecke" xmlUrl="https://www.seangoedecke.com/rss.xml" htmlUrl="https://www.seangoedecke.com/" category="Tech &amp; AI"/>
+    </outline>
+    <outline text="Programming culture" title="Programming culture">
+      <outline type="rss" text="Ludicity" title="Ludicity" xmlUrl="https://ludic.mataroa.blog/rss/" htmlUrl="https://ludic.mataroa.blog/" category="Programming culture"/>
+    </outline>
+    <outline text="Graphics &amp; games" title="Graphics &amp; games">
+      <outline type="rss" text="Sublucid Geometry" title="Sublucid Geometry" xmlUrl="https://zalo.github.io/feed.xml" htmlUrl="https://zalo.github.io/" category="Graphics &amp; games"/>
+      <outline type="rss" text="Doors to the Unknown" title="Doors to the Unknown" xmlUrl="https://doorstotheunknown.substack.com/feed" htmlUrl="https://doorstotheunknown.substack.com/" category="Graphics &amp; games"/>
+    </outline>
+  </body>
+</opml>
