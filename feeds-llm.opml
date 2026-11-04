@@ -26,6 +26,7 @@
       <outline type="rss" text="Sebastian Ruder" title="Sebastian Ruder" xmlUrl="https://www.ruder.io/rss/" category="AI &amp; ML"/>
       <outline type="rss" text="Simon Willison" title="Simon Willison" xmlUrl="https://simonwillison.net/atom/everything/" category="AI &amp; ML"/>
       <outline type="rss" text="The Gradient" title="The Gradient" xmlUrl="https://thegradient.pub/rss/" category="AI &amp; ML"/>
+      <outline type="rss" text="Welch Labs" title="Welch Labs" xmlUrl="https://www.welchlabs.com/blog/rss.xml" category="AI &amp; ML"/>
     </outline>
     <outline text="Programming" title="Programming">
       <outline type="rss" text="Better Programming - Medium" title="Better Programming - Medium" xmlUrl="https://medium.com/feed/better-programming" category="Programming"/>

@@ -12,6 +12,12 @@
       <outline type="rss" text="Sean Goedecke" title="Sean Goedecke" xmlUrl="https://www.seangoedecke.com/rss.xml" htmlUrl="https://www.seangoedecke.com/" category="Tech &amp; AI"/>
       <outline type="rss" text="Karri Saarinen" title="Karri Saarinen" xmlUrl="https://karrisaarinen.com/rss.xml" htmlUrl="https://karrisaarinen.com/" category="Tech &amp; AI"/>
       <outline type="rss" text="Hugging Face Blog" title="Hugging Face Blog" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog" category="Tech &amp; AI"/>
+      <outline type="rss" text="Andrej Karpathy" title="Andrej Karpathy" xmlUrl="https://karpathy.github.io/feed.xml" htmlUrl="https://karpathy.github.io/" category="Tech &amp; AI"/>
+      <outline type="rss" text="Welch Labs" title="Welch Labs" xmlUrl="https://www.welchlabs.com/blog/rss.xml" htmlUrl="https://www.welchlabs.com/blog" category="Tech &amp; AI"/>
+    </outline>
+    <outline text="Systems programming" title="Systems programming">
+      <outline type="rss" text="Dan Luu" title="Dan Luu" xmlUrl="https://danluu.com/atom.xml" htmlUrl="https://danluu.com/" category="Systems programming"/>
+      <outline type="rss" text="Julia Evans" title="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="https://jvns.ca/" category="Systems programming"/>
     </outline>
     <outline text="Programming culture" title="Programming culture">
       <outline type="rss" text="Ludicity" title="Ludicity" xmlUrl="https://ludic.mataroa.blog/rss/" htmlUrl="https://ludic.mataroa.blog/" category="Programming culture"/>

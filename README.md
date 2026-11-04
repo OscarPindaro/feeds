@@ -4,8 +4,8 @@ A public list of RSS feeds, in two files:
 
 | File | Size | For |
 | --- | --- | --- |
-| [`feeds.opml`](feeds.opml) | 9 feeds | Me. Hand-picked, one folder per interest. |
-| [`feeds-llm.opml`](feeds-llm.opml) | 179 feeds, 13 categories | Agents and LLMs that ingest broadly. |
+| [`feeds.opml`](feeds.opml) | 13 feeds | Me. Hand-picked, one folder per interest. |
+| [`feeds-llm.opml`](feeds-llm.opml) | 180 feeds, 13 categories | Agents and LLMs that ingest broadly. |
 
 ```
 https://raw.githubusercontent.com/OscarPindaro/feeds/main/feeds.opml
@@ -29,6 +29,10 @@ each change.
 | [Sean Goedecke](https://www.seangoedecke.com/) | <https://www.seangoedecke.com/rss.xml> |
 | [Karri Saarinen](https://karrisaarinen.com/) | <https://karrisaarinen.com/rss.xml> |
 | [Hugging Face Blog](https://huggingface.co/blog) | <https://huggingface.co/blog/feed.xml> |
+| [Andrej Karpathy](https://karpathy.github.io/) | <https://karpathy.github.io/feed.xml> |
+| [Welch Labs](https://www.welchlabs.com/blog) | <https://www.welchlabs.com/blog/rss.xml> |
+| [Dan Luu](https://danluu.com/) | <https://danluu.com/atom.xml> |
+| [Julia Evans](https://jvns.ca/) | <https://jvns.ca/atom.xml> |
 | [Ludicity](https://ludic.mataroa.blog/) | <https://ludic.mataroa.blog/rss/> |
 | [Computer, Enhance!](https://www.computerenhance.com/) (Casey Muratori) | <https://www.computerenhance.com/feed> |
 | [Sublucid Geometry](https://zalo.github.io/) | <https://zalo.github.io/feed.xml> |
@@ -39,7 +43,7 @@ each change.
 The wide file, for a model that wants a lot of sources rather than a good
 reading list. It contains the curated feeds plus:
 
-- **AI & ML** (19) — lab blogs and researchers: OpenAI, DeepMind, Google
+- **AI & ML** (20) — lab blogs and researchers: OpenAI, DeepMind, Google
   Research, Hugging Face, BAIR, Distill, Latent Space, Import AI, Simon Willison,
   Karpathy, arXiv cs.LG, and others.
 - **Systems programming** (10) — Dan Luu, Julia Evans, fasterthanli.me, Russ
