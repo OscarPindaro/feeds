@@ -10,6 +10,8 @@
       <outline type="rss" text="&lt;antirez&gt;" title="&lt;antirez&gt;" xmlUrl="https://antirez.com/rss" htmlUrl="https://antirez.com/" category="Tech &amp; AI"/>
       <outline type="rss" text="Ed Zitron's Where's Your Ed At" title="Ed Zitron's Where's Your Ed At" xmlUrl="https://www.wheresyoured.at/rss/" htmlUrl="https://www.wheresyoured.at/" category="Tech &amp; AI"/>
       <outline type="rss" text="Sean Goedecke" title="Sean Goedecke" xmlUrl="https://www.seangoedecke.com/rss.xml" htmlUrl="https://www.seangoedecke.com/" category="Tech &amp; AI"/>
+      <outline type="rss" text="Karri Saarinen" title="Karri Saarinen" xmlUrl="https://karrisaarinen.com/rss.xml" htmlUrl="https://karrisaarinen.com/" category="Tech &amp; AI"/>
+      <outline type="rss" text="Hugging Face Blog" title="Hugging Face Blog" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog" category="Tech &amp; AI"/>
     </outline>
     <outline text="Programming culture" title="Programming culture">
       <outline type="rss" text="Ludicity" title="Ludicity" xmlUrl="https://ludic.mataroa.blog/rss/" htmlUrl="https://ludic.mataroa.blog/" category="Programming culture"/>
