@@ -15,6 +15,7 @@
     </outline>
     <outline text="Programming culture" title="Programming culture">
       <outline type="rss" text="Ludicity" title="Ludicity" xmlUrl="https://ludic.mataroa.blog/rss/" htmlUrl="https://ludic.mataroa.blog/" category="Programming culture"/>
+      <outline type="rss" text="Computer, Enhance!" title="Computer, Enhance!" xmlUrl="https://www.computerenhance.com/feed" htmlUrl="https://www.computerenhance.com/" category="Programming culture"/>
     </outline>
     <outline text="Graphics &amp; games" title="Graphics &amp; games">
       <outline type="rss" text="Sublucid Geometry" title="Sublucid Geometry" xmlUrl="https://zalo.github.io/feed.xml" htmlUrl="https://zalo.github.io/" category="Graphics &amp; games"/>

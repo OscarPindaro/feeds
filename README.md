@@ -4,8 +4,8 @@ A public list of RSS feeds, in two files:
 
 | File | Size | For |
 | --- | --- | --- |
-| [`feeds.opml`](feeds.opml) | 8 feeds | Me. Hand-picked, one folder per interest. |
-| [`feeds-llm.opml`](feeds-llm.opml) | 163 feeds, 11 categories | Agents and LLMs that ingest broadly. |
+| [`feeds.opml`](feeds.opml) | 9 feeds | Me. Hand-picked, one folder per interest. |
+| [`feeds-llm.opml`](feeds-llm.opml) | 179 feeds, 13 categories | Agents and LLMs that ingest broadly. |
 
 ```
 https://raw.githubusercontent.com/OscarPindaro/feeds/main/feeds.opml
@@ -30,6 +30,7 @@ each change.
 | [Karri Saarinen](https://karrisaarinen.com/) | <https://karrisaarinen.com/rss.xml> |
 | [Hugging Face Blog](https://huggingface.co/blog) | <https://huggingface.co/blog/feed.xml> |
 | [Ludicity](https://ludic.mataroa.blog/) | <https://ludic.mataroa.blog/rss/> |
+| [Computer, Enhance!](https://www.computerenhance.com/) (Casey Muratori) | <https://www.computerenhance.com/feed> |
 | [Sublucid Geometry](https://zalo.github.io/) | <https://zalo.github.io/feed.xml> |
 | [Doors to the Unknown](https://doorstotheunknown.substack.com/) | <https://doorstotheunknown.substack.com/feed> |
 
@@ -38,9 +39,14 @@ each change.
 The wide file, for a model that wants a lot of sources rather than a good
 reading list. It contains the curated feeds plus:
 
-- **AI & ML** (18) — lab blogs and researchers: OpenAI, DeepMind, Google
-  Research, Hugging Face, BAIR, Distill, Latent Space, Import AI, Ahead of AI,
-  Simon Willison, arXiv cs.LG, and others.
+- **AI & ML** (19) — lab blogs and researchers: OpenAI, DeepMind, Google
+  Research, Hugging Face, BAIR, Distill, Latent Space, Import AI, Simon Willison,
+  Karpathy, arXiv cs.LG, and others.
+- **Systems programming** (10) — Dan Luu, Julia Evans, fasterthanli.me, Russ
+  Cox, Andrew Gallant, matklad, Daniel Lemire, Travis Downs, Brendan Gregg,
+  Michael Stapelberg.
+- **GPU programming** (4) — Thonk From First Principles, Colfax Research,
+  Modular, Simon Boehm.
 - **Tech, Programming, Web Development, Cyber security, Science, Business &
   Economy, Startups, UI/UX** — 157 feeds taken from
   [awesome-rss-feeds](https://github.com/plenaryapp/awesome-rss-feeds) (CC0).

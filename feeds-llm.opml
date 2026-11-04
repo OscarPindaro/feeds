@@ -8,6 +8,7 @@
   <body>
     <outline text="AI &amp; ML" title="AI &amp; ML">
       <outline type="rss" text="Alignment Forum" title="Alignment Forum" xmlUrl="https://www.alignmentforum.org/feed.xml" category="AI &amp; ML"/>
+      <outline type="rss" text="Andrej Karpathy" title="Andrej Karpathy" xmlUrl="https://karpathy.github.io/feed.xml" category="AI &amp; ML"/>
       <outline type="rss" text="arXiv cs.LG" title="arXiv cs.LG" xmlUrl="https://arxiv.org/rss/cs.LG" category="AI &amp; ML"/>
       <outline type="rss" text="BAIR Blog" title="BAIR Blog" xmlUrl="https://bair.berkeley.edu/blog/feed.xml" category="AI &amp; ML"/>
       <outline type="rss" text="colah's blog" title="colah's blog" xmlUrl="https://colah.github.io/rss.xml" category="AI &amp; ML"/>
@@ -159,6 +160,7 @@
       <outline type="rss" text="Clockwise" title="Clockwise" xmlUrl="https://www.relay.fm/clockwise/feed" category="Tech"/>
       <outline type="rss" text="CNET" title="CNET" xmlUrl="https://www.cnet.com/rss/news/" category="Tech"/>
       <outline type="rss" text="CNET" title="CNET" xmlUrl="https://www.youtube.com/feeds/videos.xml?user=CNETTV" category="Tech"/>
+      <outline type="rss" text="Computer, Enhance!" title="Computer, Enhance!" xmlUrl="https://www.computerenhance.com/feed" category="Tech"/>
       <outline type="rss" text="Crunch Hype" title="Crunch Hype" xmlUrl="http://feeds.feedburner.com/TechCrunch" category="Tech"/>
       <outline type="rss" text="Ed Zitron's Where's Your Ed At" title="Ed Zitron's Where's Your Ed At" xmlUrl="https://www.wheresyoured.at/rss/" category="Tech"/>
       <outline type="rss" text="Engadget - Technology News &amp; Expert Reviews" title="Engadget - Technology News &amp; Expert Reviews" xmlUrl="https://www.engadget.com/rss.xml" category="Tech"/>
@@ -190,6 +192,24 @@
     <outline text="Graphics &amp; games" title="Graphics &amp; games">
       <outline type="rss" text="Doors to the Unknown" title="Doors to the Unknown" xmlUrl="https://doorstotheunknown.substack.com/feed" category="Graphics &amp; games"/>
       <outline type="rss" text="Sublucid Geometry" title="Sublucid Geometry" xmlUrl="https://zalo.github.io/feed.xml" category="Graphics &amp; games"/>
+    </outline>
+    <outline text="Systems programming" title="Systems programming">
+      <outline type="rss" text="Andrew Gallant" title="Andrew Gallant" xmlUrl="https://blog.burntsushi.net/index.xml" category="Systems programming"/>
+      <outline type="rss" text="Brendan Gregg" title="Brendan Gregg" xmlUrl="https://www.brendangregg.com/blog/rss.xml" category="Systems programming"/>
+      <outline type="rss" text="Dan Luu" title="Dan Luu" xmlUrl="https://danluu.com/atom.xml" category="Systems programming"/>
+      <outline type="rss" text="Daniel Lemire" title="Daniel Lemire" xmlUrl="https://lemire.me/blog/feed/" category="Systems programming"/>
+      <outline type="rss" text="fasterthanli.me" title="fasterthanli.me" xmlUrl="https://fasterthanli.me/index.xml" category="Systems programming"/>
+      <outline type="rss" text="Julia Evans" title="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" category="Systems programming"/>
+      <outline type="rss" text="matklad" title="matklad" xmlUrl="https://matklad.github.io/feed.xml" category="Systems programming"/>
+      <outline type="rss" text="Michael Stapelberg" title="Michael Stapelberg" xmlUrl="https://michael.stapelberg.ch/feed.xml" category="Systems programming"/>
+      <outline type="rss" text="Russ Cox" title="Russ Cox" xmlUrl="https://research.swtch.com/feed.atom" category="Systems programming"/>
+      <outline type="rss" text="Travis Downs" title="Travis Downs" xmlUrl="https://travisdowns.github.io/feed.xml" category="Systems programming"/>
+    </outline>
+    <outline text="GPU programming" title="GPU programming">
+      <outline type="rss" text="Colfax Research" title="Colfax Research" xmlUrl="https://research.colfax-intl.com/feed/" category="GPU programming"/>
+      <outline type="rss" text="Modular Blog" title="Modular Blog" xmlUrl="https://www.modular.com/blog/rss.xml" category="GPU programming"/>
+      <outline type="rss" text="Simon Boehm" title="Simon Boehm" xmlUrl="https://siboehm.com/feed.xml" category="GPU programming"/>
+      <outline type="rss" text="Thonk From First Principles" title="Thonk From First Principles" xmlUrl="https://www.thonking.ai/feed" category="GPU programming"/>
     </outline>
   </body>
 </opml>
