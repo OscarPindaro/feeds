@@ -5,7 +5,7 @@ A public list of RSS feeds, in two files:
 | File | Size | For |
 | --- | --- | --- |
 | [`feeds.opml`](feeds.opml) | 8 feeds | Me. Hand-picked, one folder per interest. |
-| [`feeds-llm.opml`](feeds-llm.opml) | 164 feeds, 11 categories | Agents and LLMs that ingest broadly. |
+| [`feeds-llm.opml`](feeds-llm.opml) | 163 feeds, 11 categories | Agents and LLMs that ingest broadly. |
 
 ```
 https://raw.githubusercontent.com/OscarPindaro/feeds/main/feeds.opml
@@ -38,7 +38,7 @@ each change.
 The wide file, for a model that wants a lot of sources rather than a good
 reading list. It contains the curated feeds plus:
 
-- **AI & ML** (19) — lab blogs and researchers: OpenAI, DeepMind, Google
+- **AI & ML** (18) — lab blogs and researchers: OpenAI, DeepMind, Google
   Research, Hugging Face, BAIR, Distill, Latent Space, Import AI, Ahead of AI,
   Simon Willison, arXiv cs.LG, and others.
 - **Tech, Programming, Web Development, Cyber security, Science, Business &

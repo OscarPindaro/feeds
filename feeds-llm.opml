@@ -7,7 +7,6 @@
   </head>
   <body>
     <outline text="AI &amp; ML" title="AI &amp; ML">
-      <outline type="rss" text="Ahead of AI" title="Ahead of AI" xmlUrl="https://magazine.sebastianraschka.com/feed" category="AI &amp; ML"/>
       <outline type="rss" text="Alignment Forum" title="Alignment Forum" xmlUrl="https://www.alignmentforum.org/feed.xml" category="AI &amp; ML"/>
       <outline type="rss" text="arXiv cs.LG" title="arXiv cs.LG" xmlUrl="https://arxiv.org/rss/cs.LG" category="AI &amp; ML"/>
       <outline type="rss" text="BAIR Blog" title="BAIR Blog" xmlUrl="https://bair.berkeley.edu/blog/feed.xml" category="AI &amp; ML"/>
